@@ -1,1 +1,0 @@
-alert("press ok if you laik it")
