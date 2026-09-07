@@ -95,6 +95,8 @@ textarea {
 
 .agreement input {
   margin: 0;
+  width: 20px;
+}
 }
 button{
   width: 80px;
