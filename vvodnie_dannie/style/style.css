@@ -8,7 +8,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100dvh;
   margin: 0;
 }
 
@@ -46,14 +46,12 @@ input, textarea {
 }
 
 textarea {
-    width: 210px;
     resize: vertical;
     min-height: 30px;
     max-height: 200px;
 }
 
 #chek {
-  align-items: center;
   appearance: none;
   width: 18px;
   height: 18px;
@@ -95,7 +93,6 @@ textarea {
 
 .agreement input {
   margin: 0;
-  width: 20px;
 }
 
 button{
