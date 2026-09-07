@@ -87,7 +87,15 @@ textarea {
          4px -8px 0 -2px #ff26f4c4,
          8px -3px 0 -2px #ff26f4c4;
 }
+.agreement {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
+.agreement input {
+  margin: 0;
+}
 button{
   width: 80px;
   height: 30px;
