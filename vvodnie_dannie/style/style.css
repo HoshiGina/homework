@@ -1,0 +1,98 @@
+body{
+  font-family: sans-serif;
+  background-image: url('../kartinki/hehehagon.png');
+  background-repeat: no-repeat;
+  background-size: cover;      
+  background-position: center;  
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+fieldset {
+  background-color: #0E1621;
+  border-color: #004fa8e1;
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+  gap: 20px;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 40px;
+  color: #004fa8e1;
+}
+
+legend{
+  font-weight: 600;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+input, textarea {
+  width: 210px;
+  border-radius: 5px;
+  background-color: #17212B;
+  color: #ffffff;
+  border: 1px solid #3F96D0;
+  padding: 5px;
+}
+
+::placeholder{
+    color: #32aee756;
+}
+
+textarea {
+    width: 210px;
+    resize: vertical;
+    min-height: 30px;
+    max-height: 200px;
+}
+
+#chek {
+  align-items: center;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background-color: #3F96D0;
+  cursor: pointer;
+  position: relative;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+#chek:checked {
+  background-color: #004fa8e1;
+  border-color: #004fa8e1;
+}
+
+#chek:checked::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 10px;
+    background: #ff26f4c4;
+    border-radius: 50% 50% 45% 45%;
+/**/
+    left: 50%;
+    top: 61%;
+    transform: translate(-50%, -50%) rotate(-10deg);
+/**/
+    box-shadow:
+        -6px -6px 0 -2px #ff26f4c4,
+        -1px -9px 0 -2px #ff26f4c4,
+         4px -8px 0 -2px #ff26f4c4,
+         8px -3px 0 -2px #ff26f4c4;
+}
+
+button{
+  width: 80px;
+  height: 30px;
+  cursor:pointer;
+  border-radius: 20px;
+  border-color: #3F96D0;
+  background-color: #3F96D0;
+}
